@@ -5,7 +5,7 @@ DATABASES = {
         'PORT': 8306,  # 数据库端口
         'USER': 'blogdjango',  # 数据库用户名
         'PASSWORD': 'heimapeixun666',  # 数据库用户密码
-        'NAME': 'blog'  # 数据库名字1
+        'NAME': 'blog'  # 数据库名字
     },
 }
 
