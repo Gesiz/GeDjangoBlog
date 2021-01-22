@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 blog/serversetup.py
+serversetup.py
 # C extensions
 *.so
 
