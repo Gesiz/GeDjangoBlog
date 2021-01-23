@@ -106,9 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'   #原配置信息为'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'#原配置信息为'UTC'
 
 USE_I18N = True
 
@@ -166,3 +166,5 @@ AUTH_USER_MODEL = 'users.User'
 ######设置头像保存位置########
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
+
+REQUIRED_FIELDS = ['username','email']
